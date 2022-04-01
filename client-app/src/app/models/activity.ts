@@ -3,7 +3,7 @@ export interface Activity {
      title: string;
      category: string;
      description: string;
-     date: string;
+     date: Date | null;
      city: string;
      venue: string;
 }
