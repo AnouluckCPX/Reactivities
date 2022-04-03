@@ -14,7 +14,6 @@ import { categoryOptions } from '../../../app/common/options/categoryOptions';
 import MyDateInput from '../../../app/common/form/MyDateInput';
 import { Activity } from '../../../app/models/activity';
 
-
 export default observer(function ActivityForm() {
      const history = useHistory();
 
